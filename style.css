@@ -1,0 +1,62 @@
+/* Apply a default font family and center text in the body */
+body {
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+    text-align: center;
+    background-color: #4281A4; /* Added background color for better visibility */
+}
+
+/* Create a flex container for the game elements */
+.game-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    margin-top: 20px; /* Space above the game container */
+    background-color: #4281A4; /* Added background color for better visibility */
+    padding: 20px; /* Added padding for spacing */
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+/* Style individual player sections */
+.player {
+    margin: 10px; /* Space between players */
+}
+
+/* Style the game cards */
+.card {
+    width: 100px; /* Set card width */
+    height: 150px; /* Set card height */
+    border: 2px solid black; /* Add a border to cards */
+    display: flex; /* Use flexbox for card content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-size: 20px; /* Set font size for card content */
+    background-color: #9CAFB7; /* Added background color for better visibility */
+    padding: 10px; /* Added padding for spacing */
+    border-radius: 5px; /* Rounded corners for cards */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.227); /* Added a subtle box shadow */
+}
+
+/* Style the score section */
+.score {
+    margin-top: 20px; /* Space above the score section */
+    font-size: 18px; /* Increased font size for better visibility */
+}
+
+/* Style buttons */
+button {
+    padding: 10px 20px; /* Set button padding */
+    font-size: 16px; /* Set button font size */
+    cursor: pointer; /* Display cursor pointer on hover */
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Style buttons on hover */
+button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
